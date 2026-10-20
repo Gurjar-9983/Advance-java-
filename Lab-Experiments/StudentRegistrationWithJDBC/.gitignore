@@ -1,0 +1,37 @@
+# Java compiled files
+*.class
+
+# Build folders
+bin/
+out/
+target/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+*.env
+
+# Java temporary files
+hs_err_pid*
+
+# Database credentials
+config.properties
+application.properties

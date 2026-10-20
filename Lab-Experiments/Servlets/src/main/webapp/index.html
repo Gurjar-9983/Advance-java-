@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Java Servlet Practical</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="hero">
+            <h1>Java Servlet Application</h1>
+            <p>Explore Java Servlet concepts with practical examples.</p>
+        </header>
+
+        <section class="card">
+            <h2>Basic Servlets</h2>
+            <form action="hello" method="get">
+                <label for="name">Enter your name</label>
+                <input id="name" type="text" name="name"
+                       placeholder="Your name" required>
+                <button type="submit">Send GET Request</button>
+            </form>
+
+            <form action="hello" method="post">
+                <label for="postName">Enter your name (POST)</label>
+                <input id="postName" type="text" name="name"
+                       placeholder="Your name" required>
+                <button type="submit">Send POST Request</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Student Registration</h2>
+            <p>Submit a student's name, email and course.</p>
+            <a class="button" href="student.html">Register Student</a>
+        </section>
+
+        <section class="card">
+            <h2>Session and Authentication</h2>
+            <p>Login to access the protected home page.</p>
+            <a class="button" href="login.html">Student Login</a>
+        </section>
+
+        <section class="card">
+            <h2>Servlet Concepts</h2>
+            <ul class="links">
+                <li><a href="lifecycle">Servlet Life Cycle</a></li>
+                <li><a href="config">ServletConfig</a></li>
+                <li><a href="context">ServletContext</a></li>
+                <li><a href="cookie">Cookie Demonstration</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
